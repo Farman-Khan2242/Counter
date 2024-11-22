@@ -1,5 +1,5 @@
 let num = 0;
-let counter = document.querySelector('.circle');
+let counter = document.querySelector('.counter');
 // let reset = document.querySelector("#reset-btn");
 function incraeseCounter(){
     num++;

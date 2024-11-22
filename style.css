@@ -30,7 +30,7 @@ h1 {
     align-items: center;
     flex-direction: column;
 }
-.circle{
+.counter{
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -40,9 +40,13 @@ h1 {
     font-size: 40px;
     border: none;
     color: white;
+    
 }
-.circle:hover {
+.counter:hover {
     background-color: #e03c00;
+}
+.counter:active {
+    background-color: #fc4a09;
 }
 #reset-btn {
     padding: 10px 15px;
@@ -58,8 +62,10 @@ h1 {
 #reset-btn:hover {
     scale: 1.09;
     background-color:#4dc050;
-    cursor: pointer;
-    
+    cursor: pointer; 
+}
+#reset-btn:active {
+    background-color:#66cf6a;
 }
 footer {
     font-size: 12px;
