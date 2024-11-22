@@ -6,5 +6,6 @@ function incraeseCounter(){
     counter.innerHTML = num
 }
 function resetCounter(){
-    counter.innerHTML = '0'
+    counter.innerHTML = 0;
+    num = 0;
 }
